@@ -2,7 +2,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Scanner;
 
 public class Trainer {
@@ -38,7 +37,7 @@ public class Trainer {
          }
          fileScanner.close();
       } catch (FileNotFoundException exception) {
-         System.out.println("System failed to load the contents of the file!");
+         System.out.println("System failed to load file contents!");
       }
 
    }
